@@ -1,5 +1,5 @@
 import { For } from 'solid-js'
-import { Title } from "@solidjs/meta";
+import { Title, Link } from "@solidjs/meta";
 
 import Cell from '~/components/cell'
 import cell_db from '~/list.db?raw'
@@ -18,7 +18,8 @@ const Home = () => {
 
   return (
     <main>
-      <Title>Bingo Board</Title>
+      <Title>Midsomer Bingo</Title>
+      <Link rel='icon' type='image/png' href='/icon.png' />
       <h3>midsomer</h3>
       <div class='bingo-board'>
         <h1>B</h1>
